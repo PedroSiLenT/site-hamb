@@ -1,0 +1,275 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+}
+
+header {
+    background-color: #070E16;
+    padding: 0px 50px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 80px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+header a:hover {
+    color: red;
+}
+
+main {
+    background: url(imagens/hero-background1.jpg);
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.chome {
+    color: white;
+    max-width: 600px;
+    font-size: 30px;
+    padding: 40px;
+    padding-top: 100px;
+}
+
+
+.chome p {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+/* sobre */
+section.sobre {
+    background-color: #070E16;
+    display: flex;
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    align-items: center;
+}
+
+.sobre h2 {
+    color: white;
+    font-size: 38px;
+    margin-bottom: 20px;
+    margin: 5px;
+}
+
+.sobre p {
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+div.imgsobre {
+    display: flex;
+    height: 300px;
+    justify-content: right;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.imgsobre img {
+    border-radius: 5px;
+}
+
+/* menu */
+.menu {
+    background-color: #070E16;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.menu-conteudo {
+    color: white;
+}
+
+.menu-conteudo h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.menu-conteudo p {
+    display: flex;
+    text-align: center;
+}
+
+.menu-conteudo img {
+    display: block;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    max-width: 95%;
+    padding: 20px 20px;
+}
+
+.mitens {
+    display: flex;
+    justify-content: center;
+}
+
+.mitem h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.mitem p {
+    text-align: center;
+    margin: 15px;
+    text-align: justify;
+}
+
+/* reserva */
+
+.reserva {
+    background-color: #1F1F1F;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+.rconteudo {
+    color: white;
+    text-align: center;
+}
+
+.bd {
+    display: block;
+    background-color: #333333;
+    border: 0px;
+    max-width: 700px;
+    margin: auto;
+    padding-top: 30px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.bd input {
+    padding: 10px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+/* avaliaçoes */
+
+.nota {
+    background-color: #070E16;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+.nota h2 {
+    margin-bottom: 50px;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.cliente img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.cliente h3 {
+    text-align: left;
+    padding: 20px;
+    
+}
+
+.cliente p {
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    font-weight: bolder;
+}
+
+/* nossa loja */
+
+.loja  {
+    background-color: #070E16;
+    padding: 80px;
+}
+
+.loja h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.fotoloja{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imagemloja img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.rodape {
+    background-color: #070E16;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.rp img {
+    width: 150px;
+    padding-bottom: 50px;
+}
+
+.menurp a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.textofooter {
+    color: white;
+    padding-top: 60px;
+}
