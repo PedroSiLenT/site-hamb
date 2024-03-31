@@ -22,6 +22,11 @@
         
     }
 
+    .imgsobre {
+        display: inline-block;
+        margin: auto;
+    }   
+
     .imgsobre img {
         display: block;
         border-radius: 5px;
