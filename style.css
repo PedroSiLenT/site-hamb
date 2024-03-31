@@ -11,6 +11,10 @@
     }
 }
 
+html {
+    background-color: #070E16;
+}
+
 header {
     background-color: #070E16;
     padding: 0px 50px;
@@ -33,6 +37,7 @@ header a {
 
 header a:hover {
     color: red;
+    transition: 0.3s;
 }
 
 main {
@@ -78,6 +83,9 @@ section.sobre {
     line-height: 1.5;
     letter-spacing: 0.5px;
     align-items: center;
+
+    max-width: 1000px;
+    margin: auto;
 }
 
 .sobre h2 {
@@ -128,6 +136,7 @@ div.imgsobre {
 .menu-conteudo p {
     display: flex;
     text-align: center;
+    max-width: 400px;
 }
 
 .menu-conteudo img {
