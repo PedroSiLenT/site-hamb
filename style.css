@@ -56,7 +56,7 @@ main {
     max-width: 600px;
     font-size: 30px;
     padding: 40px;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .chome a:hover {
@@ -242,7 +242,7 @@ div.imgsobre {
 .cliente h3 {
     text-align: left;
     padding: 20px;
-    
+    text-align: center;
 }
 
 .cliente p {
