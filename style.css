@@ -22,6 +22,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    max-width: 1500px;
+    margin: auto;
 }
 
 header img {
@@ -56,6 +59,13 @@ main {
     padding-top: 100px;
 }
 
+.chome a:hover {
+    background-color: white;
+    color: red;
+    transform: translate(3px, 3px);
+    transition: 0.3s;
+}
+
 
 .chome p {
     font-size: 25px;
@@ -72,6 +82,8 @@ main {
     padding: 10px 20px;
     border-radius: 10px;
     font-size: 18px;
+
+    transition: 0.3s;
 }
 
 /* sobre */
@@ -86,6 +98,13 @@ section.sobre {
 
     max-width: 1000px;
     margin: auto;
+}
+
+.sobre-conteudo a:hover {
+    background-color: white;
+    color: red;
+    transform: translate(3px, 3px);
+    transition: 0.3s;
 }
 
 .sobre h2 {
@@ -136,7 +155,8 @@ div.imgsobre {
 .menu-conteudo p {
     display: flex;
     text-align: center;
-    max-width: 400px;
+    font-size: 15px;
+    max-width: 300px;
 }
 
 .menu-conteudo img {
@@ -203,6 +223,8 @@ div.imgsobre {
     color: white;
     padding: 100px;
     text-align: center;
+    max-width: 700px;
+    margin: auto;
 }
 
 .nota h2 {
