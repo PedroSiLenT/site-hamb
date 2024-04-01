@@ -55,10 +55,11 @@ header a:hover {
 .fire h2 {
     color: white;
     font-size: 30px;
-    margin-left: 50px;
+    text-align: center;
     margin-top: 100px;
     font-family: 'Bebas neue';
     letter-spacing: 5px;
+    transition: 0.3s;
 }
 
 .text-d {
@@ -66,4 +67,64 @@ header a:hover {
     text-shadow: 1px 1px 10px rgb(255, 0, 0);
     font-family: 'Bebas neue';
     letter-spacing: 5px;
+    transition: 0.3s;
+}
+
+.img-pedido {
+    border: 1px solid rgba(255, 0, 0, 0.404);
+    margin: 10px;
+    margin-left: 48px;
+    margin-right: 48px;
+    transition: 0.3s;
+}
+
+.img-pedido img {
+    max-width: 250px;
+    border-radius: 5px;
+    margin: 30px 10px 20px 30px;
+    transition: 0.3s;
+}
+
+.img-pedido p {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.img-pedido a {
+    font-family: 'bebas neue';
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+
+    margin-top: 85px;
+    margin-left: 20px;
+
+    border: 1px solid rgba(255, 0, 0, 0.404);
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.img-pedido a:hover {
+    background-color: red;
+    transition: 0.3s;
+}
+
+.preco {
+    font-family: 'bebas neue';
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+    text-shadow: 1px 1px 10px rgba(255, 0, 0, 0.288);
+    transition: 0.3s;
 }
