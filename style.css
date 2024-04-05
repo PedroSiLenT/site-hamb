@@ -134,6 +134,11 @@ div.imgsobre {
 }
 
 /* menu */
+
+.mobile-menu {
+    display: none;
+}
+
 .menu {
     background-color: #070E16;
     font-size: 1rem;
