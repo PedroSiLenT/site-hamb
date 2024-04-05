@@ -38,4 +38,41 @@
     .cliente h3 {
         text-align: center;
     }
+ 
+    .fire {
+        display: block;
+        max-width: 700px;
+        transition: 0.3s;
+    }
+
+    .img-pedido img {
+        display: block;
+        margin: auto;
+        padding-top: 30px;
+        transition: 0.3s;
+    }
+
+    .img-pedido .textl {
+        display: block;
+        width: 350px;
+        margin: auto;
+        margin-top: 30px;
+        text-align: justify;
+        transition: 0.3s;
+    }
+
+    .img-pedido .preco {
+        display: block;
+        margin: auto;
+        transition: 0.3s;
+    }
+
+    .img-pedido a {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        transition: 0.3s;
+    }
 }
