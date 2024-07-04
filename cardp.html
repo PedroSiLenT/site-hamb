@@ -6,17 +6,33 @@
     <title>Cardápio</title>
     <link rel="stylesheet" href="cardapio.css">
     <link rel="stylesheet" href="celular.css" media="screen and (orientation: portrait)">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
     <header>
         <img src="imagens/iconlogo.png" alt="" class="logo1">
         <nav class="menu">
-            <a href="index.html">Home</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#menu">Menu</a>
-            <a href="#menu">Cardápio</a>
-            <a href="#reservas">Reservas</a>
-            <a href="#avaliaçoes">Contato</a>
+            <ul class="menu-lateral">
+                <a href="" class="btn-closed"><i class='bx bx-x' ></i></a>
+                <a href="index.html">Home</a>
+                <a href="index.html">Sobre</a>
+                <a href="index.html">Menu</a>
+                <a href="cardp.html">Cardápio</a>
+                <a href="index.html">Reservas</a>
+                <a href="index.html">Contato</a>
+            </ul>
+            <ul class="mobile-link">
+                <a href="index.html">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#menu">Menu</a>
+                <a href="#menu">Cardápio</a>
+                <a href="#reservas">Reservas</a>
+                <a href="#avaliaçoes">Contato</a>
+            </ul>
+            <div>
+                <a href="" class="btn-h" onclick="teste()"><i class='bx bx-menu'></i></a>
+            </div>
         </nav>
     </header>
     <section class="fire">
@@ -42,5 +58,6 @@
             <a href="#">ADICIONAR AO CARRINHO</a>
         </div>
     </section>
+    <script src="javascript.js"></script>
 </body>
 </html>
